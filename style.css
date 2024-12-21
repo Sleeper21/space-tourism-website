@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-blue: hsl(230, 35%, 7%);
+    --light-blue: hsl(231, 77%, 90%);
+    --white: hsl(0, 0%, 100%);
+    
+    font-family: "Bellefair", serif;
+}
+
+body{
+    background-image: url("./assets/Home/background-home-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+#hamburger-btn{
+    border: none;
+    background-color: transparent;
+}
+
+/****** Home Page ******/
+.homepage-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--white);
+    gap: 1.5rem;
+    padding: 0 1.75rem;
+}
+
+.sub-title{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: var(--light-blue);
+    word-spacing: .15rem;
+    letter-spacing: normal;
+}
+
+.title{
+    color: var(--white);
+    font-size: 9rem;
+    font-weight: 400;
+    margin: 1.65rem 0;
+}
+
+.description{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 180%;
+    text-align: center;
+    color: var(--light-blue);
+}
+
+.explore-btn-container{
+    padding: 6rem 5.7rem;
+}
+
+.explore-btn{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: var(--white);
+    color: var(--dark-blue);
+    font-family: "Bellefair", serif;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 400px;
+}
+
